@@ -1,8 +1,8 @@
 # RUMaps
 
-RUMaps is a small Java project that demonstrates loading, modeling, and visualizing a street network (blocks, streets, intersections) for a simplified Rutgers University map. It includes a Swing-based UI that displays the map and highlights routes computed by simple pathfinding algorithms (minimizing intersections and minimizing traffic).
+This repository is a Rutgers University data structures assignment starter for a simplified street network. The goal is to model streets, blocks, intersections, and paths using Java data structures and fill in the required logic in `src/rumaps/RUMaps.java`.
 
-This repository is intended as an educational/demo project and does not require any external dependencies — it builds with the JDK and uses standard Java Swing for the UI.
+This project is intentionally kept as a coursework skeleton: the core assignment methods are provided as stubs, and students are expected to complete the implementations themselves. The codebase is an assignment project built with the JDK and standard Java Swing.
 
 **Quick links**
 
@@ -56,7 +56,7 @@ This simple format is parsed by the `RUMaps` initializer (see `src/rumaps/RUMaps
 ## Project Structure
 
 - `src/rumaps/` — Java source files
-  - `RUMaps.java` — network initialization, path algorithms, utility methods
+  - `RUMaps.java` — assignment skeleton for the network initialization and path algorithms
   - `Driver.java` — GUI bootstrap (contains `main`) and high-level app wiring
   - `MapPanel.java` — Swing panel that draws the map and highlights paths
   - `Network.java`, `Street.java`, `Block.java`, `Intersection.java`, `Coordinate.java` — core data model
