@@ -76,4 +76,8 @@ This simple format is parsed by the `RUMaps` initializer (see `src/rumaps/RUMaps
 - File an issue for bugs or feature suggestions.
 - For code changes, fork the repo, create a branch, implement your change, and submit a pull request. Keep changes focused and include short descriptions of what you changed and why.
 
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
 ---
